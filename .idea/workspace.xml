@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5030ce1a-c584-4dfa-b55b-e44ebb2c9e4f" name="Changes" comment="SellerForm">
+    <list default="true" id="5030ce1a-c584-4dfa-b55b-e44ebb2c9e4f" name="Changes" comment="TextField &amp; DatePicker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/SellerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SellerForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/SellerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SellerFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/util/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/SellertListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SellertListController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708527622035</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="TextField &amp; DatePicker">
+      <option name="closed" value="true" />
+      <created>1708528906844</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708528906844</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +277,7 @@
     <MESSAGE value="SellerList" />
     <MESSAGE value="Seller TableView" />
     <MESSAGE value="SellerForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="SellerForm" />
+    <MESSAGE value="TextField &amp; DatePicker" />
+    <option name="LAST_COMMIT_MESSAGE" value="TextField &amp; DatePicker" />
   </component>
 </project>
