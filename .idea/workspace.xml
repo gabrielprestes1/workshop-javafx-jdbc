@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5030ce1a-c584-4dfa-b55b-e44ebb2c9e4f" name="Changes" comment="About view">
-      <change afterPath="$PROJECT_DIR$/src/gui/DepartmentList.fxml" afterDir="false" />
+    <list default="true" id="5030ce1a-c584-4dfa-b55b-e44ebb2c9e4f" name="Changes" comment="DepartmentList view design">
+      <change afterPath="$PROJECT_DIR$/src/gui/DepartmentListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entities/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/DepartmentList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/DepartmentList.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -108,11 +110,20 @@
       <option name="project" value="LOCAL" />
       <updated>1708513429196</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DepartmentList view design">
+      <option name="closed" value="true" />
+      <created>1708514217963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708514217963</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="About view" />
-    <option name="LAST_COMMIT_MESSAGE" value="About view" />
+    <MESSAGE value="DepartmentList view design" />
+    <option name="LAST_COMMIT_MESSAGE" value="DepartmentList view design" />
   </component>
 </project>
