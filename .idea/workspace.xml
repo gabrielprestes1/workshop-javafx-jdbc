@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5030ce1a-c584-4dfa-b55b-e44ebb2c9e4f" name="Changes" comment="Deleting .settings folder">
-      <change afterPath="$PROJECT_DIR$/src/gui/SellerList.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/SellertListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/services/SellerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/MainViewController.java" afterDir="false" />
+    <list default="true" id="5030ce1a-c584-4dfa-b55b-e44ebb2c9e4f" name="Changes" comment="SellerList">
+      <change beforePath="$PROJECT_DIR$/src/gui/SellerList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SellerList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/SellertListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SellertListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/util/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708525182865</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="SellerList">
+      <option name="closed" value="true" />
+      <created>1708526133765</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708526133765</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +242,7 @@
     <MESSAGE value="Update department" />
     <MESSAGE value="Remove department" />
     <MESSAGE value="Deleting .settings folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleting .settings folder" />
+    <MESSAGE value="SellerList" />
+    <option name="LAST_COMMIT_MESSAGE" value="SellerList" />
   </component>
 </project>
