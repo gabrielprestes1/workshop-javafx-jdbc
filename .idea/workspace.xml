@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5030ce1a-c584-4dfa-b55b-e44ebb2c9e4f" name="Changes" comment="Saving a new Department">
-      <change afterPath="$PROJECT_DIR$/src/gui/listeners/DataChangeListener.java" afterDir="false" />
+    <list default="true" id="5030ce1a-c584-4dfa-b55b-e44ebb2c9e4f" name="Changes" comment="Observer design pattern to update tableview">
+      <change afterPath="$PROJECT_DIR$/src/model/exceptions/ValidationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/DepartmentFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/DepartmentFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/DepartmentListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/DepartmentListController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,9 @@
         <option name="url" value="git@github.com:gabrielprestes1/workshop-javafx-jdbc.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/gui/DepartmentFormController.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -157,8 +159,27 @@
       <option name="project" value="LOCAL" />
       <updated>1708521771853</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Observer design pattern to update tableview">
+      <option name="closed" value="true" />
+      <created>1708522635778</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708522635778</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="About view" />
@@ -168,6 +189,7 @@
     <MESSAGE value="DepartmentFormController" />
     <MESSAGE value="Passing a Department object to DepartmentForm view" />
     <MESSAGE value="Saving a new Department" />
-    <option name="LAST_COMMIT_MESSAGE" value="Saving a new Department" />
+    <MESSAGE value="Observer design pattern to update tableview" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer design pattern to update tableview" />
   </component>
 </project>
