@@ -1,7 +1,8 @@
-package gui;
+package gui.controller;
 
 import application.Main;
 import db.DbIntegrityException;
+import gui.controller.DepartmentFormController;
 import gui.listeners.DataChangeListener;
 import gui.util.Alerts;
 import gui.util.Utils;
@@ -52,7 +53,7 @@ public class DepartmentListController implements Initializable, DataChangeListen
     public void onBtNewAction(ActionEvent event) {
         Stage parentStage = Utils.currentStage(event);
         Department obj = new Department();
-        createDialogForm(obj, "/gui/DepartmentForm.fxml", parentStage);
+        createDialogForm(obj, "/gui/view/DepartmentForm.fxml", parentStage);
     }
 
     public void setDepartmentsService(DepartmentService service) {
@@ -127,7 +128,7 @@ public class DepartmentListController implements Initializable, DataChangeListen
                 setGraphic(button);
                 button.setOnAction(
                         event -> createDialogForm(
-                                obj, "/gui/DepartmentForm.fxml",Utils.currentStage(event)));
+                                obj, "/gui/view/DepartmentForm.fxml",Utils.currentStage(event)));
             }
         });
     }

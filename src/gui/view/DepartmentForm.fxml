@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane prefHeight="167.0" prefWidth="576.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DepartmentFormController">
+<AnchorPane prefHeight="167.0" prefWidth="576.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controller.DepartmentFormController">
    <children>
       <GridPane layoutX="34.0" layoutY="25.0" prefHeight="118.0" prefWidth="478.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="25.0">
         <columnConstraints>

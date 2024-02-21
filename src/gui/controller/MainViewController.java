@@ -1,4 +1,4 @@
-package gui;
+package gui.controller;
 
 
 import java.io.IOException;
@@ -35,7 +35,7 @@ public class MainViewController implements Initializable {
 
 	@FXML
 	public void onMenuItemSellerAction() {
-		loadView("/gui/SellerList.fxml", (SellertListController controller) -> {
+		loadView("/gui/view/SellerList.fxml", (SellertListController controller) -> {
 			controller.setSellersService(new SellerService());
 			controller.updateTableView();
 		});
@@ -43,7 +43,7 @@ public class MainViewController implements Initializable {
 	
 	@FXML
 	public void onMenuItemDepartmentAction() {
-		loadView("/gui/DepartmentList.fxml", (DepartmentListController controller) -> {
+		loadView("/gui/view/DepartmentList.fxml", (DepartmentListController controller) -> {
 			controller.setDepartmentsService(new DepartmentService());
 			controller.updateTableView();
 		});
@@ -51,7 +51,7 @@ public class MainViewController implements Initializable {
 	
 	@FXML
 	public void onMenuItemAboutAction() {
-		loadView("/gui/About.fxml", x -> {});
+		loadView("/gui/view/About.fxml", x -> {});
 	}
 	
 	@Override

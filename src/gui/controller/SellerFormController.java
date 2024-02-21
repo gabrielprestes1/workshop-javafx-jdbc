@@ -1,4 +1,4 @@
-package gui;
+package gui.controller;
 
 import db.DbException;
 import gui.listeners.DataChangeListener;

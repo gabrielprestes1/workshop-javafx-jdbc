@@ -1,4 +1,4 @@
-package gui;
+package gui.controller;
 
 import application.Main;
 import db.DbIntegrityException;
@@ -61,7 +61,7 @@ public class SellertListController implements Initializable, DataChangeListener 
     public void onBtNewAction(ActionEvent event) {
         Stage parentStage = Utils.currentStage(event);
         Seller obj = new Seller();
-        createDialogForm(obj, "/gui/SellerForm.fxml", parentStage);
+        createDialogForm(obj, "/gui/view/SellerForm.fxml", parentStage);
     }
 
     public void setSellersService(SellerService service) {
@@ -145,7 +145,7 @@ public class SellertListController implements Initializable, DataChangeListener 
                 setGraphic(button);
                 button.setOnAction(
                         event -> createDialogForm(
-                                obj, "/gui/SellerForm.fxml",Utils.currentStage(event)));
+                                obj, "/gui/view/SellerForm.fxml",Utils.currentStage(event)));
             }
         });
     }
